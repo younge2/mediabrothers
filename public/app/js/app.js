@@ -1,4 +1,4 @@
-var mediaApp = angular.module('mediaApp', ['MediaCtrl','ui.bootstrap', 'ui.router']);
+var mediaApp = angular.module('mediaApp', ['MediaCtrl','ui.bootstrap', 'ui.router', 'angular-flippy']);
 
 mediaApp.config([
 	'$stateProvider',

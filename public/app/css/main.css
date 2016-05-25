@@ -6,6 +6,7 @@
 
 body {
 	background-color: #22292f;
+	font-family: 'Playfair Display', serif;
 }
 
 .container {
@@ -27,7 +28,7 @@ h3 {
 }
 
 .section {
-	height: 100vh;
+	min-height: 100vh;
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 1.5em;
@@ -36,17 +37,27 @@ h3 {
 }
 
 #banner {
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/87/Seattle_Skyline_At_Night.jpg");
-	background-position: 37% 10%;
-}
-
-#about {
-	background-color: #22292f;
+	background-image: url("http://i.imgur.com/ysQb4kd.jpg");
+	background-size: cover;
+	background-position: 50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	color: #f2dcb1;
+	text-align: center;
+	font-size: 4em;
+	color: white;
+}
+
+#about {
+	background-image: url("http://i.imgur.com/R3z0UgI.jpg");
+	background-size: cover;
+	background-position: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #22292f;
 	padding-left: 10%;
 	padding-right: 10%;
 
@@ -57,12 +68,14 @@ h3 {
 }
 
 #phil {
-	background-color: #455763;
+	background-image: url("http://i.imgur.com/lJ6iGuG.jpg");
+	background-size: cover;
+	background-position: 50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	color: #f2dcb1;
+	color: #22292f;
 	padding-left: 10%;
 	padding-right: 10%;
 	
@@ -73,18 +86,42 @@ h3 {
 }
 
 #service {
-	background-color: #1d2f29;
+	background-image: url("http://i.imgur.com/WDZObl5.jpg");
+	background-size: cover;
+	background-position: 50%;
+	padding-top: 10vh;
 	color: #f2dcb1;
 
 }
 
+.col-md-4 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2vh;
+}
+
+.card {
+	background-color: black !important;
+	color: white;
+}
+
+
 #review {
-	background-color: #ccb291;
+
+	background-image: url("http://i.imgur.com/Bydk3ha.jpg");
+	background-size: cover;
+	background-position: 50%;
 	color: #22292f;
 }
 
 #questions {
-	background-color: #f2dcb1;
+	background-image: url("http://i.imgur.com/DxHvW8y.jpg");
+	background-size: cover;
+	background-position: 50%;
 	color: #22292f;
 	
+}
+#footer {
+	background-color: #22292f;
+	color: #f2dcb1;
 }

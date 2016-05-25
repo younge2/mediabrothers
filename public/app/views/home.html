@@ -2,7 +2,8 @@
 <div ng-controller="Home">
 
 	<div id="banner" class="section">
-	
+	<p> Marketing for the 21st Century</p>
+	<p>ROI Focused | Results Driven</p>
 	</div>
 
 	<div id="about" class="section">
@@ -19,9 +20,66 @@
 	<div id="service" class="section">
 		<h3>Services</h3>
 		<div class="row">
-			<div class="col-md-4">Paid media</div>
-			<div class="col-md-4">Websites/SEO</div>
-			<div class="col-md-4">Strategy</div>
+			<div class="col-md-4">
+				<flippy
+	              class="fancy"
+	              flip="['click']"
+	              flip-back="['click']"
+	              duration="800"
+	              timing-function="ease-in-out">
+
+        		<flippy-front id="hi" class="card">
+         			 <h3>Paid Media</h3>
+        		</flippy-front>
+
+		        <flippy-back class="card">
+		          <h3>Stuff</h3>
+		        </flippy-back>
+
+      			</flippy>
+      			
+			</div>
+			<div class="col-md-4">
+			
+			<flippy
+              class="fancy"
+              flip="['click']"
+              flip-back="['click']"
+              duration="800"
+              timing-function="ease-in-out">
+
+        	<flippy-front class="card" >
+          		<h3>Websites/SEO</h3>
+        	</flippy-front>
+
+	        <flippy-back class="card">
+	          <h3>Stuff</h3>
+	        </flippy-back>
+
+	      	</flippy>
+	      
+	      </div>
+			<div class="col-md-4">
+
+			
+				<flippy
+	              class="fancy"
+	              flip="['click']"
+	              flip-back="['click']"
+	              duration="800"
+	              timing-function="ease-in-out">
+
+	        	<flippy-front class="card">
+	          		<h3>Strategy</h3>
+	        	</flippy-front>
+
+		        <flippy-back class="card">
+		          <h3>Stuff</h3>
+		        </flippy-back>
+
+		      	</flippy>
+		      
+			</div>
 		</div>
 
 	</div>
