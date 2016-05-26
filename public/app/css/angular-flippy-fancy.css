@@ -4,8 +4,8 @@ flippy.fancy {
   position: relative;*/
   font-size: .8em;
   cursor: pointer;
-  width: 350px;
-  height: 350px;
+  width: 50vh;
+  height: 50vh;
 
 }
 flippy.fancy img {
@@ -24,6 +24,7 @@ flippy.fancy flippy-front {
   background: white;
   text-align: center;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.9);
+  opacity: .8;
 }
 flippy.fancy flippy-front.flipped {
   border-color: #eee;
@@ -42,6 +43,7 @@ flippy.fancy flippy-back {
   background: white;
   text-align: center;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.9);
+  opacity: .8;
 }
 flippy.fancy flippy-back.flipped {
   /*background: #80868d;*/

@@ -7,8 +7,8 @@
 	</div>
 
 	<div id="about" class="section">
-	<h3>About us</h3>
-	<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. </p>
+	<h1>About us</h1>
+	<p>Media Brothers Marketing is the result of passion mixed with results. We love working with businesses big and small to drive real world results </p>
 	</div>
 
 	<div id="phil" class="section">
@@ -18,7 +18,7 @@
 	</div>
 
 	<div id="service" class="section">
-		<h3>Services</h3>
+		<h1>Services</h1>
 		<div class="row">
 			<div class="col-md-4">
 				<flippy
@@ -30,10 +30,11 @@
 
         		<flippy-front id="hi" class="card">
          			 <h3>Paid Media</h3>
+
         		</flippy-front>
 
 		        <flippy-back class="card">
-		          <h3>Stuff</h3>
+		          <p>We work hard to maintain close relationships with each platform, which allows us to update and optimize with every new change. This approach enables us to create highly effective ads</p>
 		        </flippy-back>
 
       			</flippy>
@@ -49,11 +50,11 @@
               timing-function="ease-in-out">
 
         	<flippy-front class="card" >
-          		<h3>Websites/SEO</h3>
+          		<h3>Creative and Production</h3>
         	</flippy-front>
 
 	        <flippy-back class="card">
-	          <h3>Stuff</h3>
+	          <p>This is what sets you apart from everyone else: The way you communicate to the world and the story you tell about your business. We will help you drive business goals through the use of content marketing. Depending on your goal we will create and manage content to match that.</p>
 	        </flippy-back>
 
 	      	</flippy>
@@ -70,11 +71,11 @@
 	              timing-function="ease-in-out">
 
 	        	<flippy-front class="card">
-	          		<h3>Strategy</h3>
+	          		<h3>Account Management/Strategy</h3>
 	        	</flippy-front>
 
 		        <flippy-back class="card">
-		          <h3>Stuff</h3>
+		          <h3>To truly be successful in todays workspace you must be a master in not only strategy, but client service. Our team engages with our clients and inspire each otehr to produce excellent work.</h3>
 		        </flippy-back>
 
 		      	</flippy>
@@ -85,7 +86,9 @@
 	</div>
 
 	<div id="review" class="section">
-		<h3>Marketing Review</h3>
+		<h1>Marketing Review</h1>
+		<h3>Wondering how you stack up?</h3>
+		<h3>We will provide you with a free marketing review for any one of the subjects you are curious about.</h3>
 		<div class="row">
 			<div class="col-md-4">PPC</div>
 			<div class="col-md-4">SEO</div>
@@ -95,6 +98,35 @@
 
 	<div id="questions" class="section">
 		<h3>Questions</h3>
+		<div>
+		<form id="contactForm" name="contactForm" data-ng-submit="Home.sendMail()">
+			<div class="form-group">
+			    <label for="InputName">Name</label>
+			    <input  class="form-control" id="InputName" data-ng-model="InputName" placeholder="Name">
+		  </div>
+
+		  <div class="form-group">
+		    <label for="InputEmail">Email address</label>
+		    <input type="email" class="form-control" id="InputEmail" data-ng-model="InputEmail" placeholder="Email">
+		  </div>
+
+		  <div class="form-group">
+		    <label for="InputPhone">Phone Number</label>
+		    <input class="form-control" id="InputPhone" data-ng-model="InputPhone" placeholder="(555)555-5555">
+		  </div>
+
+		  <div class="form-group">
+		    <label for="InputMessage">Message</label>
+		    <textarea id="InputMessage" class="form-control" data-ng-model="InputMessage" rows="6">{{MessageIn}}</textarea>
+		  </div>
+
+		  <div class="checkbox">
+		    <label>
+		      <input type="checkbox"> Check me out
+		    </label>
+		  </div>
+		  <button type="submit" class="btn btn-primary">Submit</button>
+		</form>
 	</div>
 
 	<div>
