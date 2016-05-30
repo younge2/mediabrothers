@@ -1,0 +1,26 @@
+{
+  "name": "mediabrothers",
+  "version": "1.0.0",
+  "description": "mediabros",
+  "main": "index.js",
+  "dependencies": {
+    "angular-flippy": "^2.0.5",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "nodemailer": "^2.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/younge2/mediabrothers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/younge2/mediabrothers/issues"
+  },
+  "homepage": "https://github.com/younge2/mediabrothers#readme"
+}

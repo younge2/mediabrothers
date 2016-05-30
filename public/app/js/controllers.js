@@ -2,7 +2,7 @@
 
 var ctrl = angular.module('MediaCtrl', []);
 
-ctrl.controller('Home', ['$scope', function($scope, $http) {
+ctrl.controller('Home', ['$scope', '$http', function($scope, $http) {
 	$scope.where = 'Home Page';
 	$scope.MessageIn = "Message";
 
