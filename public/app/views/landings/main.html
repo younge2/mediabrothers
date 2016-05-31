@@ -1,0 +1,36 @@
+<div>
+banner
+</div>
+<div>
+
+adwords info
+</div>
+
+<div>
+	<h3>Questions</h3>
+	<div>
+		<form id="LcontactForm" name="contactForm">
+			<div class="form-group">
+			    <label for="InputName">Name</label>
+			    <input  class="form-control" id="LInputName" data-ng-model="InputName" placeholder="Name">
+		  </div>
+
+		  <div class="form-group">
+		    <label for="InputEmail">Email address</label>
+		    <input type="email" class="form-control" id="LInputEmail" data-ng-model="InputEmail" placeholder="Email">
+		  </div>
+
+		  <div class="form-group">
+		    <label for="InputPhone">Phone Number</label>
+		    <input class="form-control" id="LInputPhone" data-ng-model="InputPhone" placeholder="(555)555-5555">
+		  </div>
+
+		  <div class="form-group">
+		    <label for="InputMessage">Message</label>
+		    <textarea id="LInputMessage" class="form-control" data-ng-model="InputMessage" rows="6">{{MessageIn}}</textarea>
+		  </div>
+
+		  <button type="submit" class="btn btn-primary" ng-click="sendMail()">Submit</button>
+		</form>
+	</div>
+</div>

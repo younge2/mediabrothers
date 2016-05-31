@@ -20,19 +20,19 @@ app.use(express.static(__dirname + '/public/'));
 app.post('/contact-form', function(req,res){
 
 	console.log('POST!!!!!!!!!!!!!!!!');
-	console.log(process.env.Gpass)
+	
 
 	var transport = nodemailer.createTransport({
      service: 'gmail',
      auth: {
-     	user: 'Business@mediabrothersmarketing.com',
+     	user: 'turtlesrock10342@gmail.com',
      	pass: process.env.Gpass
      }
 });
 	var data = req.body;
 	transport.sendMail({
 		from: data.InputEmail,
-		to: 'turtlesrock10342@gmail.com',
+		to: 'Business@mediabrothersmarketing.com',
 		subject: 'Media Bros question for '+data.InputPhone,
 		text: data.InputMessage
 
