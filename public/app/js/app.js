@@ -6,12 +6,16 @@ mediaApp.config([
 	'$locationProvider',
 	function($stateProvider, $urlRouterProvider, $locationProvider){
 
-		$urlRouterProvider.otherwise('/404');
+		$urlRouterProvider.otherwise('/');
 
 		$stateProvider
 		.state('home', {
 			url: '/',
 			templateUrl: 'app/views/home.html'
+		})
+		.state('main', {
+			url: '/landing',
+			templateUrl: 'app/views/landings/main.html'
 		})
 		.state('404', {
 			url: '/404',
