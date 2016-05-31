@@ -99,7 +99,7 @@
 	<div id="questions" class="section">
 		<h3>Questions</h3>
 		<div>
-		<form id="contactForm" name="contactForm" data-ng-submit="Home.sendMail()">
+		<form id="contactForm" name="contactForm">
 			<div class="form-group">
 			    <label for="InputName">Name</label>
 			    <input  class="form-control" id="InputName" data-ng-model="InputName" placeholder="Name">
@@ -125,7 +125,7 @@
 		      <input type="checkbox"> Check me out
 		    </label>
 		  </div>
-		  <button type="submit" class="btn btn-primary">Submit</button>
+		  <button type="submit" class="btn btn-primary" ng-click="sendMail()">Submit</button>
 		</form>
 	</div>
 
