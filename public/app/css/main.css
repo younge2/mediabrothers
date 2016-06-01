@@ -100,8 +100,15 @@ h3 {
 	
 }
 
+
 #phil p {
 	max-width: 40em;
+	font-size: 1.5em;
+	margin-top: 5vh;
+}
+#phil h1 {
+	font-size: 7em;
+	margin-bottom: 5vh;
 }
 
 #service {
@@ -147,6 +154,13 @@ h3 {
 #review h1 {
 	font-size: 5em;
 	margin-bottom: 5vh;
+}
+
+.Rsec {
+	width: 50vh;
+	height: 50vh;
+	background-color: black;
+	opacity: 0.8;
 }
 
 #questions {

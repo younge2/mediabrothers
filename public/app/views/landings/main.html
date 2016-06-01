@@ -1,36 +1,101 @@
-<div>
-banner
-</div>
-<div>
-
-adwords info
-</div>
-
-<div>
-	<h3>Questions</h3>
-	<div>
-		<form id="LcontactForm" name="contactForm">
-			<div class="form-group">
-			    <label for="InputName">Name</label>
-			    <input  class="form-control" id="LInputName" data-ng-model="InputName" placeholder="Name">
-		  </div>
-
-		  <div class="form-group">
-		    <label for="InputEmail">Email address</label>
-		    <input type="email" class="form-control" id="LInputEmail" data-ng-model="InputEmail" placeholder="Email">
-		  </div>
-
-		  <div class="form-group">
-		    <label for="InputPhone">Phone Number</label>
-		    <input class="form-control" id="LInputPhone" data-ng-model="InputPhone" placeholder="(555)555-5555">
-		  </div>
-
-		  <div class="form-group">
-		    <label for="InputMessage">Message</label>
-		    <textarea id="LInputMessage" class="form-control" data-ng-model="InputMessage" rows="6">{{MessageIn}}</textarea>
-		  </div>
-
-		  <button type="submit" class="btn btn-primary" ng-click="sendMail()">Submit</button>
-		</form>
+<div ng-controller="Landing">
+	<div id="Lbanner" class="section">
+	<h1> Pay Per Click (PPC) Management</h1>
+	<p>The strategy you need to get the most qualified leads for your spend</p>
+	<p>At the heart of direct marketing is developing relationships with the right audience at the right time. PPC Management, or Pay Per Click Management, is a valuable part of any marketing effort both for the exposure to your target audience and the critical audience intelligence a good PPC management campaign provides.</p>
 	</div>
-</div>
+	<div id="Linfo" class="section">
+	<h1>Media Brothers Marketing PPC Management can help:</h1>
+	<p>Get your brand in front of the right customer, in the right place, at the right time, and on the right device.</p>
+	<p>Increase Return on Investment (ROI), increase revenue and reduce marketing cost.</p>
+	<p>Provide solutions for lead generation, ecommerce, display, and international businesses.</p>
+	
+	</div>
+
+	<div id="Lservices" class="section">
+	<h1>Our Services include: </h1>
+	<p>Search Marketing – Identifying and eliminating poor-performing key phrase variants and identification of new high-performing phrases for use in Google Adwords and Bing Ads.</p>
+	<p>Display Advertising and Remarketing - Reaching high value audiences using geographic, behavioral, and contextual targeting, as well as recapturing lost visitors using remarketing.</p>
+	<p>Ecommerce and Product Listing Ads (PLA) – Ability to execute seasonal and long term strategies, shopping campaigns and comparison shopping campaigns.</p>
+	<p>Social Media Advertising – Ability to target audiences on all major social platforms, including: </p>
+		<ul>
+		<li>Social Media PPC</li>
+		<li>Facebook</li>
+		<li>LinkedIn</li>
+		<li>Twitter, and more!</li>
+		</ul>
+	<p>Conversion Optimization – Extensive usability services spanning heuristic/cognitive analysis, user testing, functional testing, landing page optimization, and more.</p>
+	<p>Analytics and Attribution Support – Troubleshooting and identifying digital measurement opportunities.</p>
+
+	</div>
+
+	<div>
+	<h1>PPC Management Services</h1>
+	<p>Paid search services include:</p>
+		<ul>
+		<li>Discovery process, account audit, and development of campaign strategy</li>
+		<li>Targeting using audience segmentation and persona data, social listening, key phrase insights, and more</li>
+		<li>Competitive research</li>
+		<li>Account structuring</li>
+		<li>Continuous creative development and testing</li>
+		<li>Location targeting and mobile targeting</li>
+		<li>Bid management</li>
+		<li>Monthly calls and reporting on campaign performance</li>
+		</ul>
+
+	</div>
+
+	<div>
+	<h1>PPC Evaluation</h1>
+	<p>If you have an established PPC presence that is managed in-house and want an expert review of your strategy, a PPC evaluation from Media Bros. will:</p>
+	<ul>
+	<li>Conduct a comprehensive audit of your accounts</li>
+	<li>Conduct competitive research</li>
+	<li>Review and recommend creative ads</li>
+	<li>Review analytics to ensure proper goal and/or ecommerce configuration</li>
+	<li>Provide ready-to-implement actionable recommendations for execution as part of ongoing PPC management.</li>
+	</ul>
+
+	</div>
+
+	<div>
+	<h1>Pay Per Click Management And Search Engine Optimization</h1>
+
+	<p>A PPC campaign offers more control over results than organic Search Engine Optimization (SEO). With effective Pay Per Click management, you have the ability to compete relatively quickly for phrases that will take much more time to secure using earned media methods such as SEO. While a new website sometimes takes a lot of time to rank well on search engine result pages (SERPs), solid Pay Per Click campaign management can create traffic almost instantly through use of Google Adwords, Bing Ads and more. Leveraging Paid Search and SEO together helps create synergy and can create a ‘halo effect’ that improves the performance of both channels.
+</p>
+	</div>
+
+	<div>
+	<h1>PPC Management And Content Marketing</h1>
+
+	<p>Social media platforms and new display advertising networks centered around sharable content provide an exciting opportunity to help get the right assets in front of your target audience, to attract referrals and citations. However, if executed with the wrong assets or on the wrong platform, these campaigns can be very costly with a very low return. Media Bros. has extensive experience leveraging advertising platforms to support and improve return on content marketing efforts.</p>
+	</div>
+
+	<div>
+		<h3>Questions</h3>
+		<div>
+			<form id="LcontactForm" name="contactForm">
+				<div class="form-group">
+				    <label for="InputName">Name</label>
+				    <input  class="form-control" id="LInputName" data-ng-model="InputName" placeholder="Name">
+			  </div>
+
+			  <div class="form-group">
+			    <label for="InputEmail">Email address</label>
+			    <input type="email" class="form-control" id="LInputEmail" data-ng-model="InputEmail" placeholder="Email">
+			  </div>
+
+			  <div class="form-group">
+			    <label for="InputPhone">Phone Number</label>
+			    <input class="form-control" id="LInputPhone" data-ng-model="InputPhone" placeholder="(555)555-5555">
+			  </div>
+
+			  <div class="form-group">
+			    <label for="InputMessage">Message</label>
+			    <textarea id="LInputMessage" class="form-control" data-ng-model="InputMessage" rows="6">{{MessageIn}}</textarea>
+			  </div>
+
+			  <button type="submit" class="btn btn-primary" ng-click="sendMail()">Submit</button>
+			</form>
+		</div>
+	</div>
