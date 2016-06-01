@@ -1,4 +1,4 @@
-var mediaApp = angular.module('mediaApp', ['MediaCtrl','ui.bootstrap', 'ui.router', 'angular-flippy']);
+var mediaApp = angular.module('mediaApp', ['MediaCtrl','ui.bootstrap', 'ui.router', 'ngResource', 'angular-flippy']);
 
 mediaApp.config([
 	'$stateProvider',
@@ -16,6 +16,18 @@ mediaApp.config([
 		.state('main', {
 			url: '/landing',
 			templateUrl: 'app/views/landings/main.html'
+		})
+		.state('MRPPC', {
+			url: '/mrppc',
+			templateUrl: 'app/views/mrppc.html'
+		})
+		.state('MRSEO', {
+			url: '/mrseo',
+			templateUrl: 'app/views/mrseo.html'
+		})
+		.state('MRCONTENT', {
+			url: '/mrcontent',
+			templateUrl: 'app/views/mrcontent.html'
 		})
 		.state('404', {
 			url: '/404',
