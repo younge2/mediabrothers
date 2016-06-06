@@ -163,7 +163,7 @@ h3 {
 	opacity: 0.8;
 }
 
-#questions {
+.emailForm {
 	background-image: url("http://i.imgur.com/n8MXRzq.jpg");
 	background-size: cover;
 	background-position: 50%;
@@ -176,11 +176,13 @@ h3 {
 	
 }
 
-#contactForm {
+.contactForm {
 
 	width: 80vw;
 	max-width: 900px;
 }
+
+
 #footer {
 	background-color: #22292f;
 	color: #f2dcb1;

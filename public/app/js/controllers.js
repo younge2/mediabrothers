@@ -76,6 +76,50 @@ ctrl.controller('NavCtrl', ['$scope', '$state', function($scope, $state) {
 
 }]);
 
-ctrl.controller('MRPPC', ['$scope', '$state', function($scope, $state) {
+ctrl.controller('MarketReview', ['$scope', '$state', function($scope, $state) {
+
+    $scope.MessageIn = "Message";
+    $scope.data = [];
+    $scope.MRInputName = "";
+    $scope.MRInputEmail = "";
+    $scope.MRInputBusiness = "";
+    $scope.MRWebsite = "";
+    $scope.MRInputPhone = "";
+    $scope.MRInputMessage = "";
+
+    $scope.MRInputTwitter = "";
+    $scope.MRInputInstagram = "";
+    $scope.MRInputFacebook = "";
+    $scope.MRInputYoutube = "";
+    $scope.MRInputSnapchat = "";
+    $scope.MRInputOther = "";
+
+
+    $scope.sendMail=function() {
+         $scope.data = ({
+                InputName : $scope.MRInputName,
+                InputEmail : $scope.MRInputEmail,
+                InputBusiness : $scope.MRInputBusiness,
+                InputWebsite : $scope.MRWebsite,
+                InputPhone : $scope.MRInputPhone,
+                InputMessage : $scope.MRInputMessage
+            });
+
+        $http.post('/contact-form', $scope.data).
+                success(function(data, status, headers, config) {
+                    // this callback will be called asynchronously
+                    // when the response is available
+                    console.log("success");
+                    console.log($scope.data);
+                    
+ 
+                }).
+                error(function(data, status, headers, config) {
+                    // called asynchronously if an error occurs
+                    // or server returns response with an error status.
+                    console.log("error");
+                });
+    }
+
 
 }]);
