@@ -108,7 +108,7 @@ h3 {
 }
 
 #banner {
-	background-image: url("http://i.imgur.com/RFE7g6L.jpg");
+	background-image: url("http://i.imgur.com/NeeRdBW.jpg");
 	background-size: cover;
 	background-position: 50%;
 	display: flex;
@@ -127,7 +127,7 @@ h3 {
 }
 
 #about {
-	background-image: url("http://i.imgur.com/SJPtNbh.jpg");
+	background-image: url("http://i.imgur.com/83CKF0j.jpg");
 	background-size: cover;
 	background-position: 50%;
 	display: flex;
@@ -149,13 +149,22 @@ h3 {
 	margin-bottom: 5vh;
 }
 
+#about-image {
+	background-image: url("http://i.imgur.com/y3lprRv.png");
+	background-size: 200%;
+	background-position: 50% 20%;
+	max-width: 650px;
+	width: 80vw;
+	height: 25vh;
+}
+
 .textBlock {
 	max-width: 650px;
 	width: 80vw;
 }
 
 #phil {
-	background-image: url("http://i.imgur.com/b0H0D06.jpg");
+	background-image: url("http://i.imgur.com/WiRIfou.jpg");
 	background-size: cover;
 	background-position: 50%;
 	display: flex;
@@ -178,8 +187,17 @@ h3 {
 	margin-bottom: 5vh;
 }
 
+#phil-image {
+	background-image: url("http://i.imgur.com/E7FXVF6.png");
+	background-size: 200%;
+	background-position: 50% 50%;
+	max-width: 650px;
+	width: 80vw;
+	height: 25vh;
+}
+
 #service {
-	background-image: url("http://i.imgur.com/O0faecC.jpg");
+	background-image: url("http://i.imgur.com/MCWlT7A.jpg");
 	background-size: cover;
 	background-position: 50%;
 	padding-top: 17vh;
@@ -187,11 +205,16 @@ h3 {
 
 }
 
-#service h1 {
-	font-size: 10vh;
-	margin-bottom: 5vh;
-}
 
+#serv-image {
+	background-image: url("http://i.imgur.com/u9Pu5Kt.png");
+	background-size: 200%;
+	background-position: 50% 50%;
+	max-width: 650px;
+	width: 80vw;
+	height: 25vh;
+	margin: 0 auto;
+}
 .col-md-4 {
 	display: flex;
 	justify-content: center;
@@ -211,20 +234,25 @@ h3 {
 
 #review {
 
-	background-image: url("http://i.imgur.com/hhTik5W.jpg");
+	background-image: url("http://i.imgur.com/PPJcLBm.jpg");
 	background-size: cover;
 	background-position: 50%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	padding-top: 17vh;
+	
 	
 }
 
-#review h1 {
-	font-size: 10vh;
-	margin-bottom: 5vh;
+#review-image {
+	background-image: url("http://i.imgur.com/P550n1q.png");
+	background-size: 200%;
+	background-position: 50% 50%;
+	max-width: 650px;
+	width: 80vw;
+	height: 25vh;
+	margin: 0 auto;
 }
+
+
 
 .Rsec {
 	display: flex;
@@ -242,7 +270,7 @@ h3 {
 }
 
 .emailForm {
-	background-image: url("http://i.imgur.com/n8MXRzq.jpg");
+	background-image: url("http://i.imgur.com/rEy1Y4W.jpg");
 	background-size: cover;
 	background-position: 50%;
 	display: flex;
