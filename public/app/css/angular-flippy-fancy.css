@@ -4,8 +4,8 @@ flippy.fancy {
   position: relative;*/
   font-size: .8em;
   cursor: pointer;
-  width: 50vh;
-  height: 50vh;
+  width: 40vh;
+  height: 40vh;
 
 }
 flippy.fancy img {

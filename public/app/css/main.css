@@ -9,10 +9,22 @@ body {
 	font-family: 'Playfair Display', serif;
 }
 
-.container {
+.col-md-4 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+.contain {
 	width: 100%;
 	margin: 0;
-	padding: 0;
+	padding: 0px;
+}
+
+.container-fluid {
+	padding: 15px;
+
+
 }
 
 .navbar {
@@ -217,13 +229,16 @@ h3 {
 .Rsec {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 
 	width: 50vh;
 	height: 50vh;
 	background-color: black;
 	opacity: 0.8;
+	padding-top: 5vh;
+	padding-left: 2.5vh;
+	padding-right: 2.5vh;
 }
 
 .emailForm {
