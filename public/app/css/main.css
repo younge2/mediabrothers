@@ -89,15 +89,9 @@ h3 {
 	font-size: 1.5em;
 }
 
-#Lrow {
-	text-align: center;
-	color: white;
-	
-	  text-shadow:
-	   -1px -1px 0 #000,  
-	    1px -1px 0 #000,
-	    -1px 1px 0 #000,
-	     1px 1px 0 #000;
+.LserviceRows {
+	padding-left: 10vw;
+	padding-right: 10vw;
 
 }
 
@@ -129,19 +123,23 @@ h3 {
 	justify-content: center;
 	align-items: center;
 	
-	padding-left: 10%;
-	padding-right: 10%;
 
 }
 
 #about p {
-	max-width: 40em;
+	
 	font-size: 1.5em;
 	margin-top: 5vh;
 }
 #about h1 {
-	font-size: 7em;
+	
+	font-size: 10vh;
 	margin-bottom: 5vh;
+}
+
+.textBlock {
+	max-width: 650px;
+	width: 80vw;
 }
 
 #phil {
@@ -153,19 +151,18 @@ h3 {
 	justify-content: center;
 	align-items: center;
 	
-	padding-left: 10%;
-	padding-right: 10%;
 	
 }
 
 
 #phil p {
-	max-width: 40em;
+	
 	font-size: 1.5em;
 	margin-top: 5vh;
 }
 #phil h1 {
-	font-size: 7em;
+	
+	font-size: 10vh;
 	margin-bottom: 5vh;
 }
 
