@@ -39,6 +39,17 @@ h3 {
 	margin-top: 0;
 }
 
+/*.navbar-brand {
+	background-image: url("http://i.imgur.com/WhjgkfU.png");
+	background-size: 250%;
+	background-repeat:no-repeat;
+	background-position: 45% 50%;
+	max-width: 650px;
+	width: 10vh;
+	height: 300px;
+	
+}*/
+
 .section {
 	min-height: 100vh;
 	margin-top: 0;
@@ -126,6 +137,15 @@ h3 {
 	     1px 1px 0 #000;
 }
 
+#banner-image {
+	background-image: url("http://i.imgur.com/WhjgkfU.png");
+	background-size: 250%;
+	background-position: 47% 50%;
+	max-width: 650px;
+	width: 80vw;
+	height: 50vh;
+}
+
 #about {
 	background-image: url("http://i.imgur.com/83CKF0j.jpg");
 	background-size: cover;
@@ -140,7 +160,7 @@ h3 {
 
 #about p {
 	
-	font-size: 1.5em;
+	font-size: 1em;
 	margin-top: 5vh;
 }
 #about h1 {
@@ -178,7 +198,7 @@ h3 {
 
 #phil p {
 	
-	font-size: 1.5em;
+	font-size: 1em;
 	margin-top: 5vh;
 }
 #phil h1 {
