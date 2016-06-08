@@ -27,9 +27,15 @@ body {
 
 }
 
+.container-nav {
+	margin-top: -10px;
+}
+
 .navbar {
 	background-color: #f2dcb1;
 	opacity: 0.8;
+	font-size: 1.5em;
+	height: 50px;
 }
 
 .navbar .navbar-nav {
@@ -39,7 +45,10 @@ body {
 }
 
 .navbar .navbar-collapse {
-  text-align: center;
+	background-color: #f2dcb1;
+	opacity: 0.8;
+	font-size: 1.5em;
+  	text-align: center;
 }
 
 h1 {
@@ -47,6 +56,10 @@ h1 {
 }
 h3 {
 	margin-top: 0;
+}
+
+.img-responsive {
+	width: 100%;
 }
 
 /*.navbar-brand {
@@ -190,9 +203,6 @@ h3 {
 }
 
 #about-image {
-	background-image: url("http://i.imgur.com/y3lprRv.png");
-	background-size: 200%;
-	background-position: 50% 20%;
 	max-width: 650px;
 	width: 80vw;
 	height: 25vh;
@@ -232,9 +242,6 @@ h3 {
 }
 
 #phil-image {
-	background-image: url("http://i.imgur.com/E7FXVF6.png");
-	background-size: 200%;
-	background-position: 50% 50%;
 	max-width: 650px;
 	width: 80vw;
 	height: 25vh;
@@ -324,6 +331,10 @@ h3 {
 	padding-top: 15vh;
 	
 	
+}
+
+.form-group {
+	text-align: left;
 }
 
 #question-image {
