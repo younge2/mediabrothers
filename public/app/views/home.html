@@ -113,31 +113,38 @@
 	</div>
 
 	<div id="questions" class="section emailForm">
-		<h3>Questions</h3>
-		<div>
+		<div id="question-image"></div>
+		<div class="container">
+		<div class="row">
 		<form id="contactForm" class="contactForm" name="contactForm">
-			<div class="form-group">
+			<div class="form-group col-md-6">
 			    <label for="InputName">Name</label>
 			    <input  class="form-control" id="InputName" data-ng-model="InputName" placeholder="Name">
 		  </div>
 
-		  <div class="form-group">
+		  <div class="form-group col-md-6">
 		    <label for="InputEmail">Email address</label>
 		    <input type="email" class="form-control" id="InputEmail" data-ng-model="InputEmail" placeholder="Email">
 		  </div>
 
-		  <div class="form-group">
+		  <div class="form-group col-md-6">
 		    <label for="InputPhone">Phone Number</label>
 		    <input class="form-control" id="InputPhone" data-ng-model="InputPhone" placeholder="(555)555-5555">
 		  </div>
 
-		  <div class="form-group">
+		  <div class="form-group col-md-6">
+		    <label for="InputBusiness">Buisiness/website</label>
+		    <input class="form-control" id="InputBusiness" data-ng-model="InputPhone" placeholder="business/website">
+		  </div>
+
+		  <div class="form-group col-md-12">
 		    <label for="InputMessage">Message</label>
 		    <textarea id="InputMessage" class="form-control" data-ng-model="InputMessage" rows="6">{{MessageIn}}</textarea>
 		  </div>
 
 		  <button type="submit" class="btn btn-primary" ng-click="sendMail()">Submit</button>
 		</form>
+		</div>
 		</div>
 
 	

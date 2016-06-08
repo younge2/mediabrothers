@@ -6,29 +6,30 @@
 	</div>
 
 	<div id="mrseoForm" class="section emailForm">
-		<div>
+		<div class="container">
+		<div class="row">
 			<form id="MRSEOcontactForm" class="contactForm" name="contactForm">
-				<div class="form-group">
+				<div class="form-group col-md-12">
 				    <label for="MRSEOInputName">Name</label>
 				    <input  class="form-control" id="MRSEOInputName" data-ng-model="MRSEOInputName" placeholder="Name">
 			  </div>
 
-			  <div class="form-group">
+			  <div class="form-group col-md-6">
 			    <label for="MRSEOInputEmail">Email address</label>
 			    <input type="email" class="form-control" id="MRSEOInputEmail" data-ng-model="MRSEOInputEmail" placeholder="Email">
 			  </div>
 
-			  <div class="form-group">
+			  <div class="form-group col-md-6">
 			    <label for="MRSEOInputBusiness">Business</label>
 			    <input class="form-control" id="MRSEOInputBusiness" data-ng-model="MRSEOInputBusiness" placeholder="Business Name">
 			  </div>
 
-			  <div class="form-group">
+			  <div class="form-group col-md-6">
 			    <label for="MRSEOInputWebsite">Website</label>
 			    <input class="form-control" id="MRSEOInputWebsite" data-ng-model="MRSEOInputWebsite" placeholder="Website">
 			  </div>
 
-			  <div class="form-group">
+			  <div class="form-group col-md-6">
 			    <label for="MRSEOInputPhone">Phone Number</label>
 			    <input class="form-control" id="MRSEOInputPhone" data-ng-model="MRSEOInputPhone" placeholder="(555)555-5555">
 			  </div>
@@ -40,6 +41,7 @@
 
 			  <button type="submit" class="btn btn-primary" ng-click="sendMail()">Submit</button>
 			</form>
+		</div>
 		</div>
 
 	
