@@ -35,7 +35,7 @@ body {
 	background-color: #f2dcb1;
 	opacity: 0.8;
 	font-size: 1.5em;
-	height: 50px;
+	height: 60px;
 }
 
 .navbar .navbar-nav {
@@ -62,6 +62,13 @@ h3 {
 	width: 100%;
 }
 
+.title-img {
+	max-width: 650px;
+	width: 80vw;
+	height: 50vw;
+	max-height: 250px;
+}
+
 /*.navbar-brand {
 	background-image: url("http://i.imgur.com/WhjgkfU.png");
 	background-size: 250%;
@@ -75,6 +82,7 @@ h3 {
 
 .section {
 	min-height: 100vh;
+	height: 75vw;
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 1.5em;
@@ -203,9 +211,7 @@ h3 {
 }
 
 #about-image {
-	max-width: 650px;
-	width: 80vw;
-	height: 25vh;
+	
 }
 
 .textBlock {
@@ -242,9 +248,8 @@ h3 {
 }
 
 #phil-image {
-	max-width: 650px;
-	width: 80vw;
-	height: 25vh;
+	
+	margin-bottom: 10vh;
 }
 
 #service {
@@ -258,13 +263,14 @@ h3 {
 
 
 #serv-image {
-	background-image: url("http://i.imgur.com/u9Pu5Kt.png");
-	background-size: 200%;
-	background-position: 50% 50%;
-	max-width: 650px;
-	width: 80vw;
-	height: 25vh;
+	
+	
 	margin: 0 auto;
+}
+
+.serv-tab-img{
+	width: 100% !important;
+	height: auto !important;
 }
 .col-md-4 {
 	display: flex;
@@ -294,12 +300,8 @@ h3 {
 }
 
 #review-image {
-	background-image: url("http://i.imgur.com/P550n1q.png");
-	background-size: 200%;
-	background-position: 50% 50%;
-	max-width: 650px;
-	width: 80vw;
-	height: 25vh;
+	
+	
 	margin: 0 auto;
 }
 
@@ -338,13 +340,8 @@ h3 {
 }
 
 #question-image {
-	background-image: url("http://i.imgur.com/PtF8FUo.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: 50% 25%;
-	max-width: 650px;
-	width: 80vw;
-	height: 25vh;
+	
+	
 	margin: 0 auto;
 }
 
@@ -353,6 +350,13 @@ h3 {
 	width: 80vw;
 	max-width: 900px;
 	margin: 0 auto;
+}
+
+#contactForm {
+	text-align: left;
+}
+#contactForm button {
+	margin-left: 1vw;
 }
 
 
