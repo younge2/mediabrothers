@@ -117,54 +117,11 @@ h3 {
 	     1px 1px 0 #000;
 }
 
-.service-section{
-	min-height: 50vh;
-	height: 80vh;
-	margin-top: 0;
-	margin-bottom: 0;
-	font-size: 1.5em;
-	text-align: left;
-	color: black;
-	
-	  
-
-}
 
 
 
-#Linfo {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding-top: 7vh;
 
-	color: black;
-	
-}
 
-#Linfo-image {
-	
-	
-}
-
-#Linfo-inner {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding-top: 7vh;
-	
-	text-align: left;
-	font-size: 1.5em;
-	padding-left: 5vw;
-}
-
-.LserviceRows {
-	padding-left: 10vw;
-	padding-right: 10vw;
-
-}
 
 #banner {
 	background-image: url("http://i.imgur.com/NeeRdBW.jpg");
