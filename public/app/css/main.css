@@ -326,6 +326,10 @@ h3 {
 	padding-right: 2.5vh;
 }
 
+#questions {
+	padding-bottom: 5vh;
+}
+
 .emailForm {
 	background-image: url("http://i.imgur.com/rEy1Y4W.jpg");
 	background-size: cover;
@@ -382,5 +386,10 @@ h3 {
     .Rsec {
     	display: inline-block;
     	min-height: 70vh;
+    }
+
+    flippy.fancy {
+    	width: 80vw;
+    	height: 80vh;
     }
 }
