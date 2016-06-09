@@ -33,10 +33,16 @@ body {
 }
 
 .navbar {
-	background-color: #f2dcb1;
-	opacity: 0.8;
+	background-color: black;
+	opacity: 1;
 	font-size: 1em;
 	height: 60px;
+	border: black;
+
+}
+
+.navbar .nav  li  a {
+	color: white;
 }
 
 .navbar .navbar-nav {
@@ -46,7 +52,7 @@ body {
 }
 
 .navbar .navbar-collapse {
-	background-color: #f2dcb1;
+	background-color: black;
 	opacity: 0.8;
 	font-size: 1.5em;
   	text-align: center;
@@ -113,19 +119,18 @@ h3 {
 
 .service-section{
 	min-height: 50vh;
+	height: 80vh;
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 1.5em;
 	text-align: left;
-	color: white;
+	color: black;
 	
-	  text-shadow:
-	   -1px -1px 0 #000,  
-	    1px -1px 0 #000,
-	    -1px 1px 0 #000,
-	     1px 1px 0 #000;
+	  
 
 }
+
+
 
 #Linfo {
 	display: flex;
@@ -133,6 +138,8 @@ h3 {
 	justify-content: center;
 	align-items: center;
 	padding-top: 7vh;
+
+	color: black;
 	
 }
 
@@ -217,6 +224,7 @@ h3 {
 .textBlock {
 	max-width: 650px;
 	width: 80vw;
+	padding-bottom: 5vh;
 }
 .textBlock2 {
 	margin-bottom: 5vh;
@@ -271,6 +279,10 @@ h3 {
 .serv-tab-img{
 	width: 100% !important;
 	height: auto !important;
+}
+
+#serv-paidMedia-tile {
+	padding: 3vh;
 }
 
 

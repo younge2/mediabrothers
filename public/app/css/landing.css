@@ -1,3 +1,12 @@
+#Lcontainer {
+	background-color: white;
+	color: black;
+}
+
+#LserviceRows {
+	color: black;
+}
+
 #Lbanner {
 	background-image: url("http://i.imgur.com/NeeRdBW.jpg");
 	background-size: cover;

@@ -1,20 +1,19 @@
-<div ng-controller="Landing">
+<div id= "Lcontainer" ng-controller="Landing">
 	<div id="Lbanner" class="half-section">
 		<div id="Lbanner-image">
 			
 		</div>
 		<div class="textBlock">
-		<p>The strategy you need to get the most qualified leads for your spend</p>
 		<p>At the heart of direct marketing is developing relationships with the right audience at the right time. PPC Management, or Pay Per Click Management, is a valuable part of any marketing effort both for the exposure to your target audience and the critical audience intelligence a good PPC management campaign provides.</p>
 		</div>
 	</div>
 
-	<div id="Linfo" class="half-section">
-		<div class="container textBlock2">
+	<div id="Linfo" class="">
+		<div class="container textBlock">
 		<div class="row">
-			<div id="Linfo-image" class="col-md-5"><img src="http://i.imgur.com/fRtqKJO.png" class="img-responsive"></div>
+			<div id="Linfo-image" class="col-md-12"><img src="http://i.imgur.com/fRtqKJO.png" class="img-responsive"></div>
 		
-			<div id="Linfo-inner" class="col-md-7">
+			<div id="Linfo-inner" class="col-md-12">
 			<h1>Media Brothers Marketing PPC Management can help:</h1>
 				<ul>
 				<li>Get your brand in front of the right customer, in the right place, at the right time, and on the right device.</li>
@@ -26,7 +25,7 @@
 		</div>
 	</div>
 
-
+	<div class="container">
 	<div class="row LserviceRows">	
 		<div class="service-section col-md-6">
 			<h1>Our Services include: </h1>
@@ -91,32 +90,33 @@
 			<p>Social media platforms and new display advertising networks centered around sharable content provide an exciting opportunity to help get the right assets in front of your target audience, to attract referrals and citations. However, if executed with the wrong assets or on the wrong platform, these campaigns can be very costly with a very low return. Media Bros. has extensive experience leveraging advertising platforms to support and improve return on content marketing efforts.</p>
 		</div>
 	</div>
+	</div>
 
 	<div class="section emailForm">
 		<div id="question-image"></div>
 		<div>
 			<form id="LcontactForm" name="contactForm" class="contactForm">
 				<div class="form-group">
-				    <label for="InputName">Name</label>
-				    <input  class="form-control" id="LInputName" data-ng-model="InputName" placeholder="Name">
+				    <label for="InputName">Name:</label>
+				    <input  class="form-control" id="LInputName" data-ng-model="InputName" placeholder="">
 			  </div>
 
 			  <div class="form-group">
-			    <label for="InputEmail">Email address</label>
-			    <input type="email" class="form-control" id="LInputEmail" data-ng-model="InputEmail" placeholder="Email">
+			    <label for="InputEmail">Email address:</label>
+			    <input type="email" class="form-control" id="LInputEmail" data-ng-model="InputEmail" placeholder="">
 			  </div>
 
 			  <div class="form-group">
-			    <label for="InputPhone">Phone Number</label>
-			    <input class="form-control" id="LInputPhone" data-ng-model="InputPhone" placeholder="(555)555-5555">
+			    <label for="InputPhone">Phone Number:</label>
+			    <input class="form-control" id="LInputPhone" data-ng-model="InputPhone" placeholder="">
 			  </div>
 
 			  <div class="form-group">
-			    <label for="InputMessage">Message</label>
+			    <label for="InputMessage">Message:</label>
 			    <textarea id="LInputMessage" class="form-control" data-ng-model="InputMessage" rows="6">{{MessageIn}}</textarea>
 			  </div>
 
-			  <button type="submit" class="btn btn-primary" ng-click="sendMail()">Submit</button>
+			  <button type="submit" class="btn btn-default" ng-click="sendMail()">Submit</button>
 			</form>
 		</div>
 	</div>
