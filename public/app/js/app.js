@@ -17,18 +17,18 @@ mediaApp.config([
 			url: '/landing',
 			templateUrl: 'app/views/landings/main.html'
 		})
-		.state('MRPPC', {
-			url: '/mrppc',
-			templateUrl: 'app/views/mrppc.html'
-		})
-		.state('MRSEO', {
-			url: '/mrseo',
-			templateUrl: 'app/views/mrseo.html'
-		})
-		.state('MRCONTENT', {
-			url: '/mrcontent',
-			templateUrl: 'app/views/mrcontent.html'
-		})
+		// .state('MRPPC', {
+		// 	url: '/mrppc',
+		// 	templateUrl: 'app/views/mrppc.html'
+		// })
+		// .state('MRSEO', {
+		// 	url: '/mrseo',
+		// 	templateUrl: 'app/views/mrseo.html'
+		// })
+		// .state('MRCONTENT', {
+		// 	url: '/mrcontent',
+		// 	templateUrl: 'app/views/mrcontent.html'
+		// })
 		.state('404', {
 			url: '/404',
 			templateUrl: 'app/views/404.html'

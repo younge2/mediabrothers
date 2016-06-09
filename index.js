@@ -34,8 +34,8 @@ app.post('/contact-form', function(req,res){
 	transport.sendMail({
 		from: data.InputEmail,
 		to: 'Business@mediabrothersmarketing.com',
-		subject: 'Media Bros question for '+data.InputPhone,
-		text: data.InputMessage
+		subject: 'Media Bros question for '+data.InputBusiness,
+		text: data.InputMessage+" \nphone: "+data.InputPhone
 
 	}, function(error, info){
     if(error){

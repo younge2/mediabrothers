@@ -9,6 +9,7 @@ ctrl.controller('Home', ['$scope', '$http', function($scope, $http) {
 	$scope.InputName = "";
 	$scope.InputEmail = "";
 	$scope.InputPhone = "";
+    $scope.InputBusiness = "";
 	$scope.InputMessage = "";
 
 	$scope.sendMail=function() {
@@ -16,6 +17,7 @@ ctrl.controller('Home', ['$scope', '$http', function($scope, $http) {
                 InputName : $scope.InputName,
                 InputEmail : $scope.InputEmail,
                 InputPhone : $scope.InputPhone,
+                InputBusiness : $scope.InputBusiness,
                 InputMessage : $scope.InputMessage
             });
 
