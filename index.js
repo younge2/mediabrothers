@@ -33,7 +33,7 @@ app.post('/contact-form', function(req,res){
 	var data = req.body;
 	transport.sendMail({
 		from: data.InputEmail,
-		to: 'Business@mediabrothersmarketing.com',
+		to: 'jackhenrymedia@gmail.com',
 		subject: 'Media Bros question for '+data.InputBusiness,
 		text: data.InputMessage+" \nphone: "+data.InputPhone
 
