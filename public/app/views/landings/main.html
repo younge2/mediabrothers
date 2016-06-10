@@ -1,9 +1,9 @@
 <div id= "Lcontainer" ng-controller="Landing">
 	<div id="Lbanner" class="half-section">
 		<div id="Lbanner-image">
-			
+			<img src="http://i.imgur.com/QATX4th.png?1" class="img-responsive">
 		</div>
-		<div class="textBlock">
+		<div id="Lbanner-txt" class="textBlock">
 		<p>At the heart of direct marketing is developing relationships with the right audience at the right time. PPC Management, or Pay Per Click Management, is a valuable part of any marketing effort both for the exposure to your target audience and the critical audience intelligence a good PPC management campaign provides.</p>
 		</div>
 	</div>
@@ -77,7 +77,7 @@
 
 		</div>
 
-		<div class="service-section col-md-6">
+		<div id ="long-service-section" class="service-section col-md-6">
 			<h1>Pay Per Click Management And Search Engine Optimization</h1>
 
 			<p>A PPC campaign offers more control over results than organic Search Engine Optimization (SEO). With effective Pay Per Click management, you have the ability to compete relatively quickly for phrases that will take much more time to secure using earned media methods such as SEO. While a new website sometimes takes a lot of time to rank well on search engine result pages (SERPs), solid Pay Per Click campaign management can create traffic almost instantly through use of Google Adwords, Bing Ads and more. Leveraging Paid Search and SEO together helps create synergy and can create a ‘halo effect’ that improves the performance of both channels.
@@ -93,30 +93,36 @@
 	</div>
 
 	<div class="section emailForm">
-		<div id="question-image"></div>
-		<div>
+		<div id="question-image" class="title-img"><img src="http://i.imgur.com/t4sV8U0.png" class="img-responsive"></div>
+		<div class="container">
+		<div class="row">
 			<form id="LcontactForm" name="contactForm" class="contactForm">
-				<div class="form-group">
+				<div class="form-group col-md-6">
 				    <label for="InputName">Name:</label>
 				    <input  class="form-control" id="LInputName" data-ng-model="InputName" placeholder="">
 			  </div>
 
-			  <div class="form-group">
+			  <div class="form-group col-md-6">
 			    <label for="InputEmail">Email address:</label>
 			    <input type="email" class="form-control" id="LInputEmail" data-ng-model="InputEmail" placeholder="">
 			  </div>
 
-			  <div class="form-group">
+			  <div class="form-group col-md-6">
 			    <label for="InputPhone">Phone Number:</label>
 			    <input class="form-control" id="LInputPhone" data-ng-model="InputPhone" placeholder="">
 			  </div>
 
-			  <div class="form-group">
+				<div class="form-group col-md-6">
+				    <label for="InputBusiness">Buisiness or Website:</label>
+				    <input class="form-control" id="LInputBusiness" data-ng-model="InputBusiness" placeholder="">
+				 </div>
+			  <div class="form-group col-md-12">
 			    <label for="InputMessage">Message:</label>
 			    <textarea id="LInputMessage" class="form-control" data-ng-model="InputMessage" rows="6">{{MessageIn}}</textarea>
 			  </div>
 
 			  <button type="submit" class="btn btn-default" ng-click="sendMail()">Submit</button>
 			</form>
+		</div>
 		</div>
 	</div>
